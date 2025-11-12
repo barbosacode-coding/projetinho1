@@ -14,7 +14,7 @@ body {
   background-position: center; /* centraliza */
     height: 200px;
     width: 300px;
-    background-image: url('nos.jpg');
+    background-image: url(nos.jpg);
     border-radius: 15px;
     margin: 0 auto 15px;
 
@@ -135,4 +135,5 @@ audio {
   }
 
 }
+
 
