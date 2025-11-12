@@ -14,7 +14,7 @@ body {
   background-position: center; /* centraliza */
     height: 200px;
     width: 300px;
-    background-image: url(/imagens/nós.jpg);
+    background-image: url('nós.jpg');
     border-radius: 15px;
     margin: 0 auto 15px;
 
@@ -133,4 +133,5 @@ audio {
   .progress {
     height: 4px;
   }
+
 }
