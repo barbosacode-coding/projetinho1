@@ -1,0 +1,136 @@
+body {
+  background: #121212;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+
+.imagem{
+  background-size: cover; /* ajusta a imagem para preencher */
+  background-position: center; /* centraliza */
+    height: 200px;
+    width: 300px;
+    background-image: url(/imagens/nós.jpg);
+    border-radius: 15px;
+    margin: 0 auto 15px;
+
+}
+.controls {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin: 15px 0;
+}
+
+.texto{
+margin-left: 20px;
+}
+.spotify{
+    width: 520px;
+    background-color: #1e1e1e;
+    padding: 25px;
+    border-radius: 25px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    
+
+}
+.spotify h1{
+    font-size: 25px;
+    font-weight: 300;
+    font-family: Sora, Arial, sans-serif;
+}
+.spotify h2{
+    font-size: 20px;
+    font-weight: 200;
+    font-family: Sora, Arial, sans-serif;
+}
+    button {
+      background: none;
+      border: none;
+      color: #1db954;
+      font-size: 1.8em;
+      cursor: pointer;
+      transition: 0.2s;
+    }
+    button:hover{
+      transform: scale(1.1);  
+    }
+
+    .material-symbols-outlined {
+  font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48;
+  color: #1db954;
+  font-size: 40px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.material-symbols-outlined:hover {
+  transform: scale(1.1);
+}
+.progress {
+  width: 100%;
+  height: 5px;
+  background: #333;
+  border-radius: 5px;
+  overflow: hidden;
+  margin-top: 10px;
+}
+
+.progress-fill {
+  width: 0%;
+  height: 100%;
+  background: #1db954;
+  transition: width 0.1s linear;
+}
+
+audio {
+  display: none;
+}
+
+@media (max-width: 480px) {
+    body {
+    flex-direction: column;
+    height: auto;
+    padding: 30px 0;
+  }
+
+  .spotify {
+    width: 90%;
+    padding: 20px;
+  }
+
+  .imagem {
+    width: 150px;
+    height: 150px;
+  }
+
+  h1 {
+    font-size: 1.2rem;
+  }
+
+  h2 {
+    font-size: 0.9rem;
+    color: #ccc;
+  }
+
+  .controls {
+    gap: 15px;
+  }
+
+  .material-symbols-outlined {
+    font-size: 32px;
+  }
+
+  .progress {
+    height: 4px;
+  }
+}
