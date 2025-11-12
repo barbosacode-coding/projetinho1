@@ -109,8 +109,8 @@ audio {
   }
 
   .imagem {
-    width: 150px;
-    height: 150px;
+    width: 80vw;
+    height: 80vw;
   }
 
   h1 {
@@ -135,5 +135,6 @@ audio {
   }
 
 }
+
 
 
